@@ -1,3 +1,6 @@
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+}
 /* navbarcss */
 #navbar{
     display:flex;
@@ -50,7 +53,7 @@
     align-items: center;
     /* border :2px solid black;  */
  padding: 2px 200px;
- height:400px;
+ height:353px;
 
  
     
@@ -58,7 +61,7 @@
 #section::before{
     content: "";
     background: url('../images/bgimg.jpg')  center center/cover;
-    height:100%;
+    height:65%;
     width:100%;
     position:absolute;
     z-index: -1;
@@ -66,13 +69,102 @@
     
 }
 .primary-heading{
-    
     font-size :3.1rem;
     text-align:center;
+    line-height: 1px;
+    margin-top: 77px;
 }
 #section p{
     font-size :1.1rem;
     text-align:center;
-    
+    padding :8px;
+}
+.btn{
+    /* border:2px solid red; */
+    font-size: 1.1rem;
+    background-color: #ff2e2efa;
+    padding: 8px 10px;
+    border-radius: 12px;
+    color:white;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: black;
+}
+
+/* services section  */
+.services-section{
+    /* border:2px solid red; */
+    margin-top: 50px;
+}
+.servicesheading{
+    text-align: center;
+    margin-top: 41px;
+    font-size: 2.8rem;
+    font-family: 'Rokkitt', serif;
+}
+
+#services{
+    display:flex;
+    /* border:2px solid red; */
 
 }
+.box{
+    border :2px solid rgb(128, 12, 12);
+    margin:2px;
+    cursor: pointer;
+    background-color:#ebe5de;
+    border-radius:45px;
+}
+.box:hover{
+    background-color: rgb(221, 60, 60);
+    color:white;
+}
+#services .box img {
+    height: 222px;
+    width: 188px;
+    margin: auto;
+    display: block;
+}
+.box h2{
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size:2.1rem;
+}
+.box p{
+    text-align: center;
+    padding: 5px 16px;
+}
+
+/* CLIENTS SECTION */
+.contav{
+    display: flex;
+    justify-content: center;
+}
+.avbox img{
+    width: 179px;
+    height: 165px;
+}
+.avbox{
+    margin:76px;
+}
+#available h2{
+text-align: center;
+font-family: 'Rokkitt', serif;
+font-size:2.5rem;
+color:black;
+font-family: 'Baloo Bhai 2', cursive;
+}
+#available::before{   
+    content: "";
+    background: url('../images/bg2.jpg')  center center/cover;
+    height:69%;
+    width:100%;
+    position:absolute;
+    z-index: -1;
+    opacity: 0.4;
+      
+
+
+}
+
