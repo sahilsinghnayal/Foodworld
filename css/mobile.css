@@ -1,8 +1,53 @@
+html{
+scroll-behavior: smooth;
+}
+#navbar{
+    flex-direction: column;
+}
 
-
-
+#navbar ul{
+    justify-content: center;
+}
+#logo img{
+    display: block;
+    margin: auto;
+    filter: invert();
+}
 
 
 #services{
     flex-direction: column;
+}
+#services .box img {
+    height: 160px;
+    width: 160px;
+    
+}
+
+.contav {
+    flex-wrap: wrap;
+}
+.avbox img{
+     width: 100px;
+     height:100px;
+}
+#section{
+    padding :2px 2px;
+}
+#section p{
+    font-size: 1em;
+}
+#navbar ul li a {
+    
+    padding: 13px 7px;
+    
+}
+.primary-heading{
+    font-size:1.5rem;
+}
+.servicesheading {
+    text-align: center;
+    margin-top: -46px;
+    font-size: 1.8rem;
+    
 }
